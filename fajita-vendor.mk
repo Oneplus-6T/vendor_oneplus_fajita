@@ -20,10 +20,18 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/fajita/proprietary/vendor/etc/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tfa98xx.cnt \
     vendor/oneplus/fajita/proprietary/vendor/etc/firmware/tp/fw_synaptics_18801.img:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tp/fw_synaptics_18801.img \
     vendor/oneplus/fajita/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service-qti.rc \
+    vendor/oneplus/fajita/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
+    vendor/oneplus/fajita/proprietary/vendor/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/libnfc-nxp_RF.conf \
     vendor/oneplus/fajita/proprietary/vendor/etc/sensors/config/sdm845_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sdm845_ak991x_0.json \
     vendor/oneplus/fajita/proprietary/vendor/etc/sensors/config/sdm845_bmi160_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sdm845_bmi160_0.json \
     vendor/oneplus/fajita/proprietary/vendor/etc/sensors/config/sdm845_lsm6ds3c_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sdm845_lsm6ds3c_0.json \
     vendor/oneplus/fajita/proprietary/vendor/etc/sensors/config/sdm845_stk36xx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sdm845_stk36xx_0.json \
+    vendor/oneplus/fajita/proprietary/vendor/firmware/a630_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_zap.b01 \
+    vendor/oneplus/fajita/proprietary/vendor/firmware/a630_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_zap.elf \
+    vendor/oneplus/fajita/proprietary/vendor/firmware/a630_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_zap.mdt \
+    vendor/oneplus/fajita/proprietary/vendor/firmware/ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b01 \
+    vendor/oneplus/fajita/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
+    vendor/oneplus/fajita/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
     vendor/oneplus/fajita/proprietary/vendor/lib/camera/oneplus6_vstab_db_0_1080p_video_30fps.config:$(TARGET_COPY_OUT_VENDOR)/lib/camera/oneplus6_vstab_db_0_1080p_video_30fps.config \
     vendor/oneplus/fajita/proprietary/vendor/lib/camera/oneplus6_vstab_db_0_1080p_video_60fps.config:$(TARGET_COPY_OUT_VENDOR)/lib/camera/oneplus6_vstab_db_0_1080p_video_60fps.config \
     vendor/oneplus/fajita/proprietary/vendor/lib/camera/oneplus6_vstab_db_0_4k_video_30fps.config:$(TARGET_COPY_OUT_VENDOR)/lib/camera/oneplus6_vstab_db_0_4k_video_30fps.config \
@@ -31,6 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/fajita/proprietary/vendor/lib/camera/oneplus6_vstab_db_1_1080p_video_30fps.config:$(TARGET_COPY_OUT_VENDOR)/lib/camera/oneplus6_vstab_db_1_1080p_video_30fps.config \
     vendor/oneplus/fajita/proprietary/vendor/lib/camera/oneplus6_vstab_db_1_720p_video_30fps.config:$(TARGET_COPY_OUT_VENDOR)/lib/camera/oneplus6_vstab_db_1_720p_video_30fps.config \
     vendor/oneplus/fajita/proprietary/vendor/lib/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.qcom.so \
+    vendor/oneplus/fajita/proprietary/vendor/lib/rfsa/adsp/dirac_resource.dar:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/dirac_resource.dar \
     vendor/oneplus/fajita/proprietary/vendor/lib64/fp_hal_extension.so:$(TARGET_COPY_OUT_VENDOR)/lib64/fp_hal_extension.so \
     vendor/oneplus/fajita/proprietary/vendor/lib64/hw/goodix.fod.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/goodix.fod.sdm845.so \
     vendor/oneplus/fajita/proprietary/vendor/lib64/libgf_ud_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ud_hal.so \
