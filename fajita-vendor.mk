@@ -20,8 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/fajita/proprietary/vendor/etc/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tfa98xx.cnt \
     vendor/oneplus/fajita/proprietary/vendor/etc/firmware/tp/fw_synaptics_18801.img:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tp/fw_synaptics_18801.img \
     vendor/oneplus/fajita/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service-qti.rc \
-    vendor/oneplus/fajita/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
-    vendor/oneplus/fajita/proprietary/vendor/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/libnfc-nxp_RF.conf \
     vendor/oneplus/fajita/proprietary/vendor/etc/sensors/config/sdm845_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sdm845_ak991x_0.json \
     vendor/oneplus/fajita/proprietary/vendor/etc/sensors/config/sdm845_bmi160_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sdm845_bmi160_0.json \
     vendor/oneplus/fajita/proprietary/vendor/etc/sensors/config/sdm845_lsm6ds3c_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sdm845_lsm6ds3c_0.json \
